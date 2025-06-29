@@ -1,0 +1,40 @@
+{
+  "name": "whatsapp-enhanced-v3",
+  "version": "3.0.0",
+  "description": "WhatsApp Enhanced v3 - Complete personalization system with advanced messaging features",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "@hapi/boom": "^10.0.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "qrcode": "^1.5.3",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "pino": "^8.15.0",
+    "fs-extra": "^11.1.1",
+    "mime-types": "^2.1.35",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "messaging",
+    "api",
+    "personalization",
+    "bulk-messaging",
+    "templates"
+  ],
+  "author": "WhatsApp Enhanced v3",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
